@@ -1,0 +1,75 @@
+table {
+    border-radius: 1px;
+    
+  }
+body{
+    background-image: url(Statistical-calculator.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.cal{
+    color: grey;
+}
+.container{
+    text-align:center;
+}
+table{
+    margin:auto;
+}
+h1{
+    font-size: 80px;
+    font-family: cursive;
+    ;
+}
+.main input[type='text']{
+    background-color: #eceae6;
+     border-radius: 2px;
+     border: none;
+     outline: none;
+     padding: 0.5rem 1rem;
+     text-align: right;
+     font-size: 2.2rem;
+     font-weight: bold;
+     overflow-x:visible;
+     height: 65px;
+     width: 300px;
+     word-wrap: break-word;
+     word-break: break-all;
+     /* max-width: 300px; */
+     margin-bottom: 0.5rem;
+     resize: none;
+ }
+ img{
+    height: 40px;
+    width: 50px;
+ }
+ .btn input[type='button']{
+    font-weight: bold;
+    background-color: rgb(157, 140, 242);
+     color: rgb(12, 12, 9);
+    width: 60px;
+    height: 55px;
+    border-radius: 7px;
+    font-size: 1.5rem;
+    margin: 0.2rem 0.4rem;
+    border: 5px;
+    border-color: black;
+    outline:black;
+}
+.red{
+    background-color: rgb(244, 46, 72);
+}
+.btn input[type='button']:hover{
+    background-color: rgb(243, 243, 65);
+     color: rgb(92, 88, 88);
+}
+.btn
+{
+    border-radius: 6px;
+    padding: 7px;
+}
